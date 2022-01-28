@@ -1,3 +1,4 @@
+<?php 
 use Illuminate\Support\Facades\Route;
 use App\Modules\Auth\Controllers\AuthController;
 
