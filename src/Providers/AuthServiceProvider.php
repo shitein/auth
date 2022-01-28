@@ -1,6 +1,6 @@
 <?php
 
-namespace Collab\Auth\Providers;
+namespace Shitein\Auth\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
