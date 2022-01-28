@@ -9,7 +9,6 @@
     "require-dev": {
         "phpunit/phpunit": "^7.1"
     },
-    "license": "Shite",
     "autoload": {
         "psr-4": {
             "Shitein\\Auth\\": "src/"
