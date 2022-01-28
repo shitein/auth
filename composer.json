@@ -3,7 +3,6 @@
     "description": "User Authentication",
     "type": "library",
     "require": {
-        "illuminate/support": "8.x-dev",
         "php": "^7.1"
     },
     "require-dev": {
