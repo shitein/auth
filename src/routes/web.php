@@ -2,7 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Modules\Auth\Controllers\AuthController;
 
-Route::group(['namespace' => 'App\Modules\Auth\Controllers', /*'prefix' => 'auth',*/ 'middleware' => ['web']], function() {
+Route::group(['namespace' => 'Shitein\Auth\Controllers', /*'prefix' => 'auth',*/ 'middleware' => ['web']], function() {
     Route::get('/login', 'AuthController@login')->name('login');
     Route::get('/register', 'AuthController@register')->name('register');
     Route::post('/register-user', 'AuthController@registerUser');
