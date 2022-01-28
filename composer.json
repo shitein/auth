@@ -13,6 +13,11 @@
             "Shitein\\Auth\\": "src/"
         }
     },
+    "extra": {
+        "psr-4": [
+            "Shitein\\Auth\\Providers\\AuthServiceProvider"
+        ]
+    }
     "authors": [
         {
             "name": "Shamkant",
