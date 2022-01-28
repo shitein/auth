@@ -14,9 +14,11 @@
         }
     },
     "extra": {
-        "psr-4": [
-            "Shitein\\Auth\\Providers\\AuthServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Shitein\\Auth\\Providers\\AuthServiceProvider"
+            ]
+        }
     },
     "authors": [
         {
