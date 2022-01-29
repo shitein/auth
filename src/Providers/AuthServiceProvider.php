@@ -12,9 +12,9 @@ class AuthServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'auth');
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        /*$this->publishes([
+        $this->publishes([
             __DIR__.'/public' => public_path('vendor/auth'),
-        ], 'public');*/
+        ], 'public');
     }
 
     public function register() 
