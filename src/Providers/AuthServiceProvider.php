@@ -17,7 +17,7 @@ class AuthServiceProvider extends ServiceProvider
         ], 'public');
         
         $this->publishes([
-            __DIR__.'/../resources' => base_path('vendor/shite-auth/views'),
+            __DIR__.'/../resources' => base_path('vendor/shite-auth'),
         ], 'views');
     }
 
