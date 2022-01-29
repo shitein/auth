@@ -13,11 +13,11 @@ class AuthServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
         $this->publishes([
-            __DIR__.'/public' => public_path('vendor/auth'),
+            __DIR__.'/../public' => public_path('vendor/auth'),
         ], 'public');
         
         $this->publishes([
-            __DIR__.'/resources' => public_path('vendor/shite-auth/views'),
+            __DIR__.'/../resources' => public_path('vendor/shite-auth/views'),
         ], 'views');
     }
 
